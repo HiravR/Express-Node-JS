@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <% include partials/templates/head.ejs %>
+  </head>
+  <body id="<%= pageID %>">
+
+   <% include partials/templates/header.ejs %>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+         <div class="maincontent">
+         <% include partials/templates/contactme.ejs %>
+         </div>
+        </div><!-- primary -->
+      
+      </div>
+    </div><!-- container -->
+    <% include partials/content/scripts.ejs %>
+  </body>
+</html>

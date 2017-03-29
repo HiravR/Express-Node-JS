@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <% include partials/templates/head.ejs %>
+  </head>
+  <body id="<%= pageID %>">
+
+   <% include partials/templates/header.ejs %>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+         <div class="maincontent">
+         <% include partials/content/viewspeakers.ejs %>
+         </div>
+        </div><!-- primary -->
+        <aside class="col-sm-4">
+        <% include partials/content/righthandmain.ejs %>
+          </aside><!-- secondary -->
+      </div>
+    </div><!-- container -->
+    <% include partials/content/scripts.ejs %>
+  </body>
+</html>

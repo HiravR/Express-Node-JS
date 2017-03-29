@@ -1,0 +1,21 @@
+
+          <article class="sidebar">
+            <h1 class="sidebar-title">Who should come?</h1>
+            <ul class="sidebar-body">
+              <li>Anybody interested in art and the creative industry</li>
+              <li>Painters, sculptors, photographers and graphic artists</li>
+              <li>Those interested in meeting and making a connection with others in the local art scene.</li>
+            </ul>
+          </article><!-- article -->
+          <article class="sidebar">
+              <h1 class="sidebar-title">Artwork on Display</h1>
+              <p class="sidebar-body">
+                Enjody the artwork while you listen. </p>
+                <div class="pixgrid clearfix"></div>  
+                <% if(artwork.length > 0){ %>
+                 <%for(i=0; i<artwork.length;i++){%>
+                    <img src="/images/artwork/<%= artwork[i] %>" />
+                <%  }%>
+                <% } %>            
+          </article>
+      
