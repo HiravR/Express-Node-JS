@@ -1,7 +1,7 @@
 /* Hirav Raval*/
 
 var express = require('express');
-var reload = require('reload');
+//var reload = require('reload');
 var io = require('socket.io')();
 var app = express();
 var dataFile = require('./data/data.json');
@@ -34,7 +34,7 @@ io.on('connection',function(socket){
 	});
 });
 
-reload(server,app);
+//reload(server,app);
 //Basic node server code.
 /*var http = require('http');
 
