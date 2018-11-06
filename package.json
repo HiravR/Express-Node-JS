@@ -4,7 +4,7 @@
   "description": "Files for my Building a Website with Node & ExpressJS ",
   "main": "app/app.js",
   "scripts": {
-    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
+    "start": "node app/app.js"
   },
   "author": "Hirav Raval",
   "license": "MIT",
