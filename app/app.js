@@ -6,7 +6,8 @@ var io = require('socket.io')();
 var app = express();
 var dataFile = require('./data/data.json');
 
-app.set('port',process.env.PORT || 3000);
+//app.set('port',process.env.PORT || 3000); // for the development purpose listen to a hardcoded port.
+app.set('port',process.env.PORT;
 app.set('appData',dataFile);
 app.set('view engine','ejs');
 app.set('views','./views');
