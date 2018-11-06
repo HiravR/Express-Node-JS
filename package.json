@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Files for my Building a Website with Node & ExpressJS ",
   "main": "app/app.js",
-
+  "scripts": {
+    "start": "node ./app/app.js"
+  },
   "author": "Hirav Raval",
   "license": "MIT",
   "engines": {
